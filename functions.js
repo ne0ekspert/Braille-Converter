@@ -12,9 +12,9 @@ exports.ocr = onRequest(async (req, res) => {
   const client = new vision.ImageAnnotatorClient({
     auth: auth,
     credentials: {
-      private_key: "AIzaSyDWIGQElIQPyDVOTK9JgMfBqggNNLnMOLM",
+      private_key: "actually committed key but revoked",
     },
-    projectId: "app-test-406706",
+    projectId: "",
   });
 
   /**
